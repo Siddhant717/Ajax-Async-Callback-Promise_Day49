@@ -7,7 +7,6 @@ function showTime(){
 function showSessionExpire(){
     console.log("Activity: B: Your session expired at "+ showTime());
 }
-
 console.log("Activity- A: Triggering Activity B at"+ showTime());
 setTimeout(showSessionExpire, 5000);
 console.log("Activity-A : Triggerred-B at "+ showTime()+ "will excute after 5 second");
